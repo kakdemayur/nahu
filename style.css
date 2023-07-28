@@ -1,0 +1,252 @@
+*{
+      padding: 0;
+      margin: 0;
+     
+}
+
+#navbar{
+      /* background-color: cadetblue; */
+     
+     /* position: fixed; */
+     padding: 30px 2px 2px 200px;
+      display: flex;
+      justify-content: space-evenly;
+      font-size: large;
+      /* border: 2px solid black; */
+     font-size: 25px;
+     
+     position: sticky;
+}
+input{
+      border-radius: 10px;
+      padding: 4px 10px 4px 10px;
+}
+button{
+      border-radius: 10px;
+      padding: 4px 10px 4px 10px;
+      cursor: pointer;
+}
+a{
+      text-decoration: none;
+      color: aliceblue;
+      border-radius: 2px;
+}
+a:hover{
+      color: chocolate;
+      
+      
+}
+input:active{
+      
+      padding: 10px;
+      
+}
+body{
+      background-image: url("coffee.jpg");
+      background-size: cover;
+
+}
+h1{
+      color: burlywood;
+      position: absolute;
+      top: 10px;
+      left: 30px;
+      /* left: 10px; */
+      font-size: 60px;
+}
+span{
+      color: brown;
+      margin-top: -2px;
+}
+a{
+      /* padding-top: 20px; */
+}
+button:hover{
+      background-color: transparent;
+      color: bisque;
+}
+.nva-one{
+      height: 350px;
+      width: 100%;
+      /* background-color: cadetblue; */
+      margin-top: 150px;
+      /* border: 2px solid blue; */
+}
+h2{
+       /* margin-top: 150px; */
+       color: antiquewhite;
+       font-family: cursive;
+      font-weight: 900;      
+      font-size: 40px;
+       position: absolute;
+       padding-top: 10px;
+       padding-left: 100px; 
+}
+.cla{
+     
+      /* display: inline-block; */
+      color: white;
+      padding: 30px 2px 2px 100px;
+      margin-top: 25px;
+      /* background-image: url("soya.jpg");
+      background-size: cover; */
+      font-family: cursive;
+     
+
+}
+#img{
+      /* height: 100px;
+      width: 100px;
+      background-color: brown; */
+      height: 230px;
+      width: 200px;
+      /* background-color: cadetblue; */
+      /* position: relative; */
+      display: flex;
+      justify-content: center;
+     align-content: flex-end;
+      top: 10px;
+      /* right: 10px; */
+      left: 10px;
+      background-image: url("soya.jpg");
+      background-size: cover;
+      border-radius: 15px;
+      /* filter: opacity(30%); */
+}
+ul{
+      display: flex;
+     justify-content: space-evenly;
+}
+li{
+      list-style-type: none;
+}
+h3:hover{
+      text-decoration: underline brown;
+      font-size: 50px;
+}
+li:hover{
+      /* font-size: 30px; */
+}
+#three{
+      /* display: inline-block; */
+      height: 450px;
+      width: 100%;
+      /* background-color: cadetblue; */
+      margin-top: 1px;
+      /* border: 2px solid blue; */
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 2px 2px 2px 2px;
+      /*  */
+}
+#robusta{
+      background-image: url("robu.jpg");
+      background-size: cover;
+      height: 300px;
+      width: 300px;
+      margin-top: 90px;
+      color: antiquewhite;
+      font-family: cursive;
+      font-size: 20px;
+      padding-left: 3px;
+
+}
+#excelsa{
+      background-size: cover;
+      height: 300px;
+      width: 300px;
+      background-image: url("exea.jpeg");
+      padding: 2px 2px 2px 2px;
+      margin-top: 90px;
+      color: antiquewhite;
+      font-family: cursive;
+      font-size: 20px;
+      padding-left: 3px;
+}
+#liberica{
+      background-size: cover;
+      height: 300px;
+      width: 300px;
+      background-image: url("libe.jpg");
+      padding: 2px 2px 2px 2px;
+      margin-top: 90px;
+      color: rgb(32, 18, 1);
+      font-family: cursive;
+      font-size: 20px;
+      padding-left: 3px;
+}
+#arabica{
+      background-size: cover;
+      height: 300px;
+      width: 300px;
+      background-image: url("arabi.jpeg");
+      margin-top: 90px;
+      color: antiquewhite;
+      font-family: cursive;
+      font-size: 20px;
+      padding-left: 3px;
+}
+#arabica:hover{
+      height: 350px;
+      width: 350px;
+}
+#liberica:hover{
+      height: 350px;
+      width: 350px;
+}
+#excelsa:hover{
+      height: 350px;
+      width: 350px;
+}
+#robusta:hover{
+      height: 350px;
+      width: 350px;
+}
+.nav{
+      height: 450px;
+      width: 100%;
+      /* border: 2px solid blue; */
+}
+#link{
+      margin-top: 10px;
+      
+      display: inline-block;
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 90px;
+     
+    
+}   
+#link:hover{
+     color: rgb(33, 32, 32,0.75);
+     /* filter: opacity(80%); */
+    
+}
+a{
+      
+      border-radius: 10px;
+}
+#in{
+      display: inline-block;
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 10px;
+      font-family: cursive;
+      font-size: 20px;
+      color: burlywood;
+      #in:hover{
+      position: fixed;
+      }
+}
+footer{
+      height: 100px;
+      width: 100%;
+      color: aliceblue;
+      text-align: center;
+      position: relative;
+      bottom: 0px;
+      background-color: black;
+      margin-top: 20px;
+      
+}
